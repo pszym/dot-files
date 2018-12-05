@@ -1,0 +1,9 @@
+[alias]
+    lo = log --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --graph
+    diff-stash = diff stash@{0}~1 stash@{0}
+    recommit = commit --amend --reset-author --no-edit
+    reword = commit --amend -o
+    squash = rebase -i --autosquash --fork-point
+
+[core]
+	editor = vim
