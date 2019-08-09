@@ -2,6 +2,7 @@
 " Configuration
 """"""""""""""""""""""""""
 
+
 " load plugins
 execute pathogen#infect()
 
@@ -68,6 +69,7 @@ nnoremap gl :Git lo<CR>
 """"""""""""""""""""""""""
 " Serching
 """"""""""""""""""""""""""
+set hlsearch
 
 " make ack.vim to use Silver Searcher (instead of ack)
 let g:ackprg = 'ag --nogroup --nocolor --column'
