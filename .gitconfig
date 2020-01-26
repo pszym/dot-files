@@ -6,4 +6,4 @@
     squash = rebase -i --autosquash --fork-point
 
 [core]
-	editor = vim
+    editor = vim
