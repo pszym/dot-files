@@ -1,6 +1,3 @@
-[submodule ".tmux/plugins/tpm"]
-	path = .tmux/plugins/tpm
-	url = https://github.com/tmux-plugins/tpm
 [submodule "vim/.vim/ack.vim"]
 	path = vim/.vim/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
