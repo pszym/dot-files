@@ -1,30 +1,4 @@
-### TODO
-    * source ~.<file>.local files from ~/dotfiles/.<file>
-    * turn into an install script
-
 ### Install
-Install pathogen
-```
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-```
-
-Install vim solarized
-```
-cd ~/.vim/bundle
-git clone git://github.com/altercation/vim-colors-solarized.git
-```
-
-Rename local files (if exisit)
-```
-mv ~/.bashrc ~/.bashrc.local
-mv ~/.virmrc ~/.vimrc.local
-mv ~/.pdbrc ~/.pdbrc.local
-mv ~/.tmux.conf ~/.tmux.conf.local
-mv ~/.gitconfig ~/.gitconfig.local
-mv ~/.gitignore ~/.gitignore.local
-```
-
 Create symlinks
 ```
 stow -v vim
@@ -38,13 +12,10 @@ mkdir ~/.swp
 mkdir ~/.backups
 ```
 
-Create ~/.vimrc with
-```
-so ~/dotfiles/.vimrc
-```
 
-
-Create ~/.tmux.confg
+TODO:
 ```
-source-file ~/dotfiles/.tmux.conf
+mv ~/.bashrc ~/.bashrc.local
+mv ~/.gitconfig ~/.gitconfig.local
+mv ~/.gitignore ~/.gitignore.local
 ```
