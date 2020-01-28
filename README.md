@@ -27,9 +27,9 @@ mv ~/.gitignore ~/.gitignore.local
 
 Create symlinks
 ```
-ln -s ~/dotfiles/.pdbrc ~/.pdbrc
-ln -s ~/dotfiles/.tmux ~/.tmux
-ln -s ~/dotfiles/.vim ~/.vim
+stow -v vim
+stow -v pdb
+stow -v tmux
 ```
 
 Create directories
